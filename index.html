@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mailchimp Clone</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Logo</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#resources">Resources</a></li>
+                <li><a href="login.html">Log In</a></li>
+                <li><a href="#" class="btn" onclick="signUp()">Sign Up</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <h1>Marketing Smarter</h1>
+            <p>Grow your business with Mailchimp's all-in-one marketing platform.</p>
+            <button onclick="getStarted()">Get Started</button>
+        </section>
+        <section id="features" class="features">
+            <h2>Key Features</h2>
+            <ul>
+                <li>Marketing Automation</li>
+                <li>Email Builder</li>
+                <li>Landing Pages</li>
+                <li>Analytics</li>
+            </ul>
+        </section>
+        <section id="pricing" class="pricing">
+            <h2>Pricing Plans</h2>
+            <ul>
+                <li>Free: $0/month</li>
+                <li>Pro: $10/month</li>
+                <li>Business: $20/month</li>
+            </ul>
+        </section>
+        <section id="resources" class="resources">
+            <h2>Resources</h2>
+            <ul>
+                <li>Blog</li>
+                <li>Support</li>
+                <li>Community</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Mailchimp Clone</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mailchimp Clone - Log In</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Logo</a></li>
+                <li><a href="index.html">Home</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="login">
+            <h2>Log In</h2>
+            <form id="login-form">
+                <label for="email">Email</label>
+                <input type="email" id="email" required>
+                <label for="password">Password</label>
+                <input type="password" id="password" required>
+                <button onclick="login()">Log In</button>
+            </form>
+            <p>Don't have an account? <a href="#" onclick="signUp()">Sign Up</a></p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Mailchimp Clone</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

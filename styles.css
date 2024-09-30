@@ -1,0 +1,321 @@
+/* Global Styles */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f7f7f7; /* Mailchimp-inspired background color */
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+}
+
+.hero {
+    background-image: linear-gradient(to bottom, #FFC80C, #FF9900); /* Mailchimp-inspired hero gradient */
+    color: #fff;
+    padding: 4em;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.features ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.features li {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: 200px;
+    text-align: center;
+}
+
+.login {
+    background-color: #fff;
+    padding: 2em;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login h2 {
+    color: #333;
+}
+
+.login form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login label {
+    margin-bottom: 10px;
+}
+
+.login input {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.login button {
+    background-color: #FFC80C;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login button:hover {
+    background-color: #FF9900;
+}
+
+/* Responsive Design */
+
+@media (max-width: 768px) {
+    main {
+        padding: 1em;
+    }
+    
+    .hero {
+        padding: 2em;
+    }
+    
+    .features {
+        flex-direction: column;
+    }
+    
+    .features li {
+        width: 100%;
+    }
+}
+
+/* Global Styles */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f7f7f7; /* Mailchimp-inspired background color */
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+    background-image: linear-gradient(to bottom, #f7f7f7, #fff); /* Added background gradient */
+}
+
+.hero {
+    background-image: linear-gradient(to bottom, #FFC80C, #FF9900); /* Mailchimp-inspired hero gradient */
+    color: #fff;
+    padding: 4em;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #f2f2f2; /* Added background color */
+    padding: 2em;
+}
+
+.features ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.features li {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: 200px;
+    text-align: center;
+    background-color: #fff; /* Added background color */
+}
+
+.pricing {
+    background-color: #f9f9f9; /* Added background color */
+    padding: 2em;
+}
+
+.pricing ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.pricing li {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: 200px;
+    text-align: center;
+    background-color: #fff; /* Added background color */
+}
+
+.resources {
+    background-color: #f9f9f9; /* Added background color */
+    padding: 2em;
+}
+
+.resources ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.resources li {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: 200px;
+    text-align: center;
+    background-color: #fff; /* Added background color */
+}
+
+.login {
+    background-color: #fff;
+    padding: 2em;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login h2 {
+    color: #333;
+}
+
+.login form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login label {
+    margin-bottom: 10px;
+}
+
+.login input {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.login button {
+    background-color: #FFC80C;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login button:hover {
+    background-color: #FF9900;
+}
+
+/* Responsive Design */
+
+@media (max-width: 768px) {
+    main {
+        padding: 1em;
+    }
+    
+    .hero {
+        padding: 2em;
+    }
+    
+    .features {
+        flex-direction: column;
+    }
+    
+    .features li {
+        width: 100%;
+    }
+}
